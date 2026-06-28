@@ -1,0 +1,17 @@
+app.post('/reporte', (req, res) => {
+  const mensaje = req.body.mensaje;
+  res.json({
+    estado: "Reporte recibido",
+    mensaje: mensaje
+  });
+});
+
+que hace esta ruta? Esta es una ruta que utiliza el método HTTP POST en un servidor Node.js/Express. A diferencia de las rutas GET (que se usan para consultar o leer datos), las rutas POST se diseñan para enviar o crear información en el servidor.
+Esto es lo que ocurre paso a paso cuando se ejecuta:
+Recibe datos: El servidor escucha una petición en la dirección /reporte. Espera que el cliente (ya sea una aplicación móvil o una página web) envíe información en el cuerpo de la solicitud (req.body), específicamente una variable llamada mensaje.
+Procesa la información: Extrae ese mensaje de la petición entrante.
+Responde al usuario: Devuelve una respuesta en formato JSON con un estado confirmando que el reporte fue recibido y le muestra de vuelta el mismo mensaje que envió para validar que llegó correctamente
+Para qué podría servir en una aplicación comunitaria?
+En el contexto de una plataforma para un barrio, vecindario o comunidad local, este endpoint es sumamente útil. Podría servir como el motor detrás de las siguientes funciones:
+Reportes de daños en la infraestructura: Permitir a los vecinos reportar un bache en la calle, una luminaria rota o una fuga de agua. El mensaje contendría la descripción del problema (ej: "La farola de la calle 5 está apagada").
+Alertas de seguridad vecinal: Funcionar como un botón de pánico o de alerta comunitaria. Un usuario envía un mensaje de emergencia (ej: "Actividad sospechosa en el parque principal") para que se distribuya a los demás miembros del vecindario.
