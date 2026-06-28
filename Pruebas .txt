@@ -1,0 +1,2 @@
+cada una maneja un tipo de peticion diferente
+la primera es la raiz la segunda es una tuta estatica y ma tercera es una ruta que esta programada ñara responder diferentes preguntas
