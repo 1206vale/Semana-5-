@@ -1,0 +1,8 @@
+Las APIs (Interfaces de Programación de Aplicaciones) actúan como puentes digitales que estandarizan 
+y automatizan el intercambio de datos en tiempo real.
+En una aplicación comunitaria, permiten que diferentes plataformas —como chats de vecinos, apps móviles y sistemas de emergencias— se conecten bajo una misma estructura organizada. 
+Al utilizar formatos universales como JSON, 
+una API filtra, clasifica y valida que cada reporte de infraestructura o alerta de seguridad contenga campos obligatorios como la ubicación, el tipo de incidente y la descripción.
+De este modo, la información no se dispersa en mensajes informales, sino que se centraliza automáticamente en una base de datos. 
+Esto facilita que los administradores visualicen los problemas 
+en mapas interactivos, prioricen las urgencias de manera eficiente y envíen notificaciones push instantáneas a los ciudadanos afectados.
